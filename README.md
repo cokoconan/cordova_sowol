@@ -31,15 +31,18 @@ SDK Cordova plugin 추가
 
 Android 프로젝트에 연결하기
 
+
 1. dependencies 수정
 
-    dependencies { 
-    //... 
-    compile 'com.connectsdk:connect-sdk-android:1.4.+' 
-    } 
+
+     dependencies { 
+     //... 
+     compile 'com.connectsdk:connect-sdk-android:1.4.+' 
+     } 
 
 
 2. 안드로이드 스튜디오 세팅
+
 ① 순차적으로 실행
 
      cd your_project_folder
