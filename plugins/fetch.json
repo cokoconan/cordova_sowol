@@ -1,0 +1,10 @@
+{
+    "com.connectsdk.cordovaplugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ConnectSDK/Connect-SDK-Cordova-Plugin.git",
+            "subdir": ".",
+            "ref": "master"
+        }
+    }
+}
