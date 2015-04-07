@@ -34,11 +34,11 @@ Android 프로젝트에 연결하기
 
 1. dependencies 수정
 
+     dependencies { 
+         //... 
+         compile 'com.connectsdk:connect-sdk-android:1.4.+' 
+     } 
 
-       dependencies { 
-        //... 
-        compile 'com.connectsdk:connect-sdk-android:1.4.+' 
-      } 
 
 
 
