@@ -24,7 +24,7 @@ npm 으로 코도바 설치
 
 SDK Cordova plugin 추가
 
-$ cordova plugin add https://github.com/ConnectSDK/Connect-SDK-Cordova-Plugin.git#master
+    $ cordova plugin add https://github.com/ConnectSDK/Connect-SDK-Cordova-Plugin.git#master
 
 
 코도바 프로젝트 생성 완료.
@@ -32,32 +32,32 @@ $ cordova plugin add https://github.com/ConnectSDK/Connect-SDK-Cordova-Plugin.gi
 Android 프로젝트에 연결하기
 
 1. dependencies 수정
-dependencies { 
-//... 
-compile 'com.connectsdk:connect-sdk-android:1.4.+' 
-} 
+    dependencies { 
+    //... 
+    compile 'com.connectsdk:connect-sdk-android:1.4.+' 
+    } 
 
 
 2. 안드로이드 스튜디오 세팅
 ① 순차적으로 실행
 
-cd your_project_folder
-git clone https://github.com/ConnectSDK/Connect-SDK-Android.git
-cd Connect-SDK-Android
-git submodule init
-git submodule update
+    cd your_project_folder
+    git clone https://github.com/ConnectSDK/Connect-SDK-Android.git
+    cd Connect-SDK-Android
+    git submodule init
+    git submodule update
 
 
 ② settings.gradle 수정
 
-include ':app', ':Connect-SDK-Android'
+    include ':app', ':Connect-SDK-Android'
 
 
 ③ dependencies 추가
-dependencies { 
-//... 
-compile project(':Connect-SDK-Android') 
-} 
+    dependencies { 
+    //... 
+    compile project(':Connect-SDK-Android') 
+    } 
 
 
 ④ 싱크하기
