@@ -71,3 +71,12 @@ Android 프로젝트에 연결하기
 
 
 참고 : http://connectsdk.com/docs/android/setup/
+
+
+
+* 로딩 지연 문제제
+1. 초반 로딩시 느림
+        https://developers.google.com/speed/pagespeed/insights/
+위에 사이트 주소 넣고 웹 확인해볼것.
+
+2. 앱에서 해결할수 있는 방법 찾아보기.
